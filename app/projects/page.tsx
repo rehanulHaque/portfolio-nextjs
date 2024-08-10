@@ -1,5 +1,6 @@
 import request from 'graphql-request'
 import ProjectCard from '@/components/ProjectComponents/ProjectCard'
+export const revalidate = 30;
 
 interface ProjectDataTypes {
   projects: [{
